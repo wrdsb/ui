@@ -6,7 +6,7 @@ Assets, boilerplate code, etc. for the Blue Tang design and UI
 All assets are linked in the header of every website and application:
 
 + CSS Files: s3.amazonaws.com/wrdsb-theme/{MAJOR VERSION}/master.css
-+ JS Files:  s3.amazonaws.com/wrdsb-theme/{MAJOR VERSION}/js.css
++ JS Files:  s3.amazonaws.com/wrdsb-theme/{MAJOR VERSION}/master.js
 
 ### Testing Plan
 
