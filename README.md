@@ -5,8 +5,9 @@ Assets, boilerplate code, etc. for the Blue Tang design and UI
 
 All assets are linked in the header of every website and application:
 
-+ CSS Files: s3.amazonaws.com/wrdsb-theme/{MAJOR VERSION}/master.css
-+ JS Files:  s3.amazonaws.com/wrdsb-theme/{MAJOR VERSION}/master.js
++ CSS Files: s3.amazonaws.com/wrdsb-ui-assets/{MAJOR VERSION}/master.css
++ JS Files:  s3.amazonaws.com/wrdsb-ui-assets/{MAJOR VERSION}/master.js
++ IMG Files: s3.amazonaws.com/wrdsb-ui-assets/{MAJOR VERSION}/{image file name} (see repo for available images)
 
 ### Testing Plan
 
@@ -18,8 +19,8 @@ The Web Team will provide details about what changes and what will potentially b
 
 ### Reporting Issues
 
-Please report any issues when testing to the Web Team by providing the specific error, code, screenshots, etc using ITService Desk.
+Please report any issues when testing to the Web Team by providing the specific error, code, screenshots, etc using the issue queue for this repo. 
 
 ## What Uses These Assets?
 
-All .NET applications, reports, WRDSB Websites use these assets.
+Currently some .NET applications and all ITS-managed WordPress websites use these assets. We are moving to have all .NET applications, reports, WRDSB Websites use these assets.
