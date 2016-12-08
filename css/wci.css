@@ -56,18 +56,22 @@ h1, h2, h3, h4, h5, h6 {
 
 /*links*/
 a {
-	/*color:#0A1241; SZC 2014-11-10 */ /*primary*/
-	color: #6C718D;
+	color: #152584;
 }
 .footer a {
-	color: #B6B8C6; /* SZC 2014-11-10 #6C718D; */ /*opacity*/
+	color: #B6B8C6; 
 }
 a:hover, a:focus {
-	color:#0A1241; /*primary*/
+	color: #223edd; 
 }
 .footer a:hover, .footer a:focus {
-	color:#6C718D; /*opacity*/
+	color: #d4d5dd; 
 }
+a:visited {
+	color: #182c9a;
+}
+
+
 /*footer*/
 .footer {
 	background-color:#0A1241; /*primary*/
