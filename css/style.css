@@ -1,5 +1,9 @@
 /*** Post Styling for supporting meta data ***/
 
+.print {
+	visibility: hidden;
+}
+
 /* unused
 .postdate {}
 .nocomments {}
@@ -74,7 +78,7 @@ fieldset legend {
 #school-day { /* iframe pulling School-Day code */
 	width: 100%; 
 	max-width: 344px; 
-	height: 161px; 
+	height: 175px; 
 	border: 0;
 }
 
@@ -450,14 +454,6 @@ a#inc_font, a#dec_font {
 	cursor:pointer;
 	font-size:24px;
 }
-/*
-.accessability span.increase-font {
-	font-size:24px;
-}
-.accessability span.decrease-font {
-	font-size:16px;
-}
-*/
 .event {
 	margin-bottom:12px;
 	padding-bottom:8px;
@@ -816,9 +812,6 @@ content: "Example";
 			position:relative;
 			height:85px;
 			padding-left:90px;
-		}
-		.social-icons {
-			display:none;
 		}
 		.searchbox {
 			float:left;

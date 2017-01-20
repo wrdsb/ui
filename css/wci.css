@@ -55,21 +55,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*links*/
-a {
+/* a {
 	color: #152584;
-}
+}*/
 .footer a {
 	color: #B6B8C6; 
 }
-a:hover, a:focus {
+/*a:hover, a:focus {
 	color: #223edd; 
-}
+}*/
 .footer a:hover, .footer a:focus {
 	color: #d4d5dd; 
 }
-a:visited {
+/*a:visited {
 	color: #182c9a;
-}
+}*/
 
 
 /*footer*/
