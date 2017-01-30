@@ -1,3 +1,7 @@
+## 1.0.0
++ update accessibility, adding #sitename, #sitedescription and associated styles
++ add class for postdate
+
 ## 0.10.5
 + remove conditional CSS from the master.css file so they only load when they are needed
 

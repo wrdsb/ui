@@ -1,11 +1,6 @@
 /*** Post Styling for supporting meta data ***/
 
-.print {
-	visibility: hidden;
-}
-
 /* unused
-.postdate {}
 .nocomments {}
 .post-edit-link {
 	position: absolute;
@@ -26,6 +21,53 @@
 
 
 /*** General Styles ***/
+
+  #sitename {
+    font-size: 30px;
+    font-weight:bold;
+  }
+
+  #sitedescription {
+    font-size: 22px;
+    letter-spacing: 0;
+  }
+
+  #logo a #sitename, #logo a #sitedescription {
+    color:#005daa;
+  }
+
+  #logo a #sitename {
+    margin:0;
+    top:40px;
+    position:absolute;
+  }
+
+  #logo a #sitedescription {
+    margin:0;
+    top:75px;
+    position:absolute;
+  }
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    #logo a #sitename {
+      font-size:26px;
+      top:44px;
+    }
+    #logo a #sitedescription {
+      font-size:20px;
+      top:78px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991px) {
+    #logo a #sitename {
+      font-size:22px;
+      top:28px;
+    }
+    #logo a #sitedescription {
+      display:none;
+    }
+  }
 
 .categories {
 	border-top: 1px solid #eee;
@@ -198,6 +240,12 @@ h2.news {
 a {
 	color:#005daa;
 }
+
+.postdate {
+	font-size: .8em;
+	color: #666;
+}
+
 .gray-darker {
 	color:#000;
 	opacity: 0.93.5;
@@ -435,6 +483,16 @@ p.copyright, h6.copyright { /* was h6.copyright */
 	text-decoration: none;
 	color:#e6eff6;
 }
+
+.footer .social-icons span {
+	font-size:28px;
+	margin-right:10px;
+}
+.footer .social-icons a:hover {
+	text-decoration: none;
+	color:#e6eff6;
+}
+
 .header .social-icons a:hover {
 	text-decoration:none;
 	color:#669ecc;
