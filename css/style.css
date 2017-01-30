@@ -74,6 +74,12 @@
 	margin-top: .5em;
 	padding-top: .5em;
 	margin-bottom: 3em;
+	font-size: 11px;
+	color: #999;
+}
+
+.categories a {
+	color: #669ecc;
 }
 
 /** form elements **/
@@ -242,8 +248,8 @@ a {
 }
 
 .postdate {
-	font-size: .8em;
-	color: #666;
+	font-size: 11px;
+	color: #999;
 }
 
 /* remove non-semantic styles

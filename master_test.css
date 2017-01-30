@@ -1,0 +1,15 @@
+/* Bootstrap Layout and Core Styles */
+
+/* @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"); */
+@import url("https://s3.amazonaws.com/wrdsb-theme/css/bootstrap.css");
+@import url("https://s3.amazonaws.com/wrdsb-theme/css/bootstrap-theme.css");
+
+/* Mobile Styles */
+
+@import url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.0/css/addtohomescreen.css") screen;
+
+/* Custom WordPress Theme Styles */ 
+
+@import url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.0/css/style.css");
+@import url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.0/css/bipsa.css");
+@import url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.0/css/print.css") print;
