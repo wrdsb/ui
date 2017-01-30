@@ -74,6 +74,12 @@
 	margin-top: .5em;
 	padding-top: .5em;
 	margin-bottom: 3em;
+	font-size: 11px;
+	color: #999;
+}
+
+.categories a {
+	color: #669ecc;
 }
 
 /** form elements **/
@@ -242,11 +248,12 @@ a {
 }
 
 .postdate {
-	font-size: .8em;
-	color: #666;
+	font-size: 11px;
+	color: #999;
 }
 
-.gray-darker {
+/* remove non-semantic styles
+ .gray-darker {
 	color:#000;
 	opacity: 0.93.5;
 }
@@ -258,15 +265,14 @@ a {
 	color:#000;
 	opacity:0.335;
 }
-.gray-light
-{
+.gray-light {
 	color:#000;
 	opacity:0.20;
 }
 .gray-lighter{
 	color:#000;
 	opacity:0.135;
-}
+} */
 
 #loginbar { /* contains log in/out, Staff Website and sometimes School Handbook links */
 	background-color: #a0cf67 !important;
