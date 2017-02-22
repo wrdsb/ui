@@ -1,3 +1,13 @@
+## 1.0.1
++ Royal Blue Tang
++ adjust .alerts to #alerts
++ adjust .navbar-header to #navbar-header
+- comment out blank declarations
++ adjust .accessability to .accessibility
++ adjust .toogle-subnav to .toggle-subnav
++ make link to logo explicit
++ fix url references to point to AWS
+
 ## 1.0.0
 + update accessibility, adding #sitename, #sitedescription and associated styles
 + add class for postdate

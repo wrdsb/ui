@@ -6,10 +6,10 @@
 
 /* Mobile Styles */
 
-@import url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.0/css/addtohomescreen.css") screen;
+@import url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.1/css/addtohomescreen.css") screen;
 
 /* Custom WordPress Theme Styles */ 
 
-@import url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.0/css/style.css");
-@import url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.0/css/bipsa.css");
-@import url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.0/css/print.css") print;
+@import url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.1/css/style.css");
+@import url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.1/css/bipsa.css");
+@import url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.1/css/print.css") print;
