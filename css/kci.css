@@ -84,7 +84,6 @@ th {
 	color: #660202; /*primary*/
 }
 
-#logo a h2, #logo a h3 {
-	color:#d5a63a
-	; /*secondary*/
+#logo a #sitename, #logo a #sitedescription {
+	color:#d5a63a; /*secondary*/
 }
