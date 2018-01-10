@@ -1,3 +1,6 @@
+## 1.0.2
++ adjust .gallery styling per request 14052
+
 ## 1.0.1
 + Royal Blue Tang
 + adjust .alerts to #alerts
