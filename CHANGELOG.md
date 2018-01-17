@@ -1,3 +1,6 @@
+## 1.0.3
++ add new school to json/schools.json
+
 ## 1.0.2
 + adjust .gallery styling per request 14052
 
