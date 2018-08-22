@@ -1,3 +1,6 @@
+## 1.0.4
++ change address for Rosemount
+
 ## 1.0.3
 + add new school to json/schools.json
 
