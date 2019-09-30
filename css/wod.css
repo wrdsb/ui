@@ -9,86 +9,32 @@
 	primary-faint: #f5f6f5;
 */ 
 
-/* login bar */
-#loginbar { /* contains log in/out, Staff Website and sometimes School Handbook links */
-	background-color: #ccc !important; 
-	border-top: 3px solid #666;
-	width:100%;
-}
-
-/*navigation*/
-.my-navbar {
-	background-color:#12180A; /*primary*/
-	border-top-color:#666666; /*secondary*/
-}
-.nav >li > a:hover, .nav >li > a:focus {
-	background-color:#71746C; /*opacity*/
-}
-.nav >li.active, 
-.nav >li.current-page-ancestor, 
-.nav >li.current_page_ancestor,
-.nav >li.current-menu-item, 
-.nav >li.current_page_item {
-	background-color:#71746C; /*opacity*/
-}
-/*sub navigation*/
-.sub-menu-heading, .sub-menu-heading a {
-	background-color:#12180A; /*primary*/
-}
-.sub-menu-items {
-	background-color:#e7e8e6; /*primary-extra-light*/
-}
-
-/* children in sub-nav */
-.nav_current_page_children_container {
-	background-color: #f5f6f5; /*primary-faint*/
-}
-
-/*headings*/
-h1, h2, h3, h4, h5, h6 {
-	color:#12180A; /*primary*/
-}
-
-/*links*/
-a {
-	/*color:#12180A; removed 20140821 SZC */ /*primary*/
-	/*color: #515A45; removed 20140922 SZC per Savio Wong */
-	color: #690;
-}
-.footer a {
-	color:#71746C; /*opacity*/
-}
-a:hover, a:focus {
-	/*color:#12180A; removed 20140821 SZC */ /*primary*/
-	/*color: #515A45; removed 20140922 SZC per Savio Wong */
-	color: #690;
-}
-.footer a:hover, .footer a:focus {
-	color:#71746C; /*opacity*/
-}
-/*footer*/
-.footer {
-	background-color:#12180A; /*primary*/
-	border-top-color:#666; /*secondary*/
-	color:#fff;
-}
-
-th {
-	background-color: #e7e8e6; /*primary-extra-light*/
-}
-
-thead > tr > th {
-        border-bottom: 2px solid #666; /*secondary*/
-        }
-
-tr:hover, tr:nth-child(odd):hover, tr:nth-child(even):hover {
-	background-color: #ccc !important; /*secondary-light*/
-}
-
-th {
-	color: #12180A; /*primary*/
-}
-
-#logo a #sitename, #logo a #sitedescription {
-	color:#666; /*secondary*/
-}
+      #masthead {
+      background-color: #221B13;
+      }
+      .navbar {
+      background-color: #666;
+      }
+      .my-sub-navbar {
+      	background-color: white;
+      }
+      .nav >li > a:hover, .nav >li > a:focus {
+      background-color:#999;
+      }
+      .nav >li.active,
+      .nav >li.current-page-ancestor,
+      .nav >li.current_page_ancestor,
+      .nav >li.current-menu-item,
+      .nav >li.current_page_item {
+      background-color:#999;
+      }
+         #logo a {
+      background:url("https://wrdsb-ui-assets.s3.amazonaws.com/public/2/2.0.0/images/WRDSB+Secondary+Logo+cropped.png") no-repeat;
+      background-size:75px 75px;
+      /*margin-left:120px;*/
+      text-decoration:none;
+      color:#fff;
+      margin-top: 15px;
+      font-family: 'Open Sans Condensed', sans-serif !important;
+      font-size: 40px;
+      }

@@ -8,82 +8,32 @@
 	primary-extra-light: #eae6e7;
 	primary-faint: #f7f5f5;*/ 
 
-/* login bar */
-#loginbar { /* contains log in/out, Staff Website and sometimes School Handbook links */
-	background-color: #ccc !important; 
-	border-top: 3px solid #666;
-	width:100%;
-}
-
-/*navigation*/
-.my-navbar {
-	background-color:#29090C; /*primary*/
-	border-top-color:#666666; /*secondary*/
-}
-.nav >li > a:hover, .nav >li > a:focus {
-	background-color:#7F6B6D; /*opacity*/
-}
-.nav >li.active, 
-.nav >li.current-page-ancestor, 
-.nav >li.current_page_ancestor,
-.nav >li.current-menu-item, 
-.nav >li.current_page_item {
-	background-color:#7F6B6D; /*opacity*/
-}
-/*sub navigation*/
-.sub-menu-heading, .sub-menu-heading a {
-	background-color:#29090C; /*primary*/
-}
-.sub-menu-items {
-	background-color:#D4CECE; /*light*/
-}
-
-/* children in sub-nav */
-.nav_current_page_children_container {
-	background-color: #f7f5f5; /*primary-faint*/
-}
-
-/*headings*/
-h1, h2, h3, h4, h5, h6 {
-	color:#29090C; /*primary*/
-}
-
-/*links*/
-a {
-	color:#29090C; /*primary*/
-}
-.footer a {
-	color:#7F6B6D; /*opacity*/
-}
-a:hover, a:focus {
-	color:#29090C; /*primary*/
-}
-.footer a:hover, .footer a:focus {
-	color:#7F6B6D; /*opacity*/
-}
-/*footer*/
-.footer {
-	background-color:#29090C; /*primary*/
-	border-top-color:#666; /*secondary*/
-	color:#fff;
-}
-
-th {
-	background-color: #eae6e7; /*primary-extra-light*/
-}
-
-thead > tr > th {
-        border-bottom: 2px solid #666; /*secondary*/
-        }
-
-tr:hover, tr:nth-child(odd):hover, tr:nth-child(even):hover {
-	background-color: #ddbe99 !important; /*secondary-light*/
-}
-
-th {
-	color: #29090C; /*primary*/
-}
-
-#logo a #sitename, #logo a #sitedescription {
-	color:#666; /*secondary*/
-}
+      #masthead {
+      background-color: #29090C;
+      }
+      .navbar {
+      background-color: #666;
+      }
+      .my-sub-navbar {
+      	background-color: white;
+      }
+      .nav >li > a:hover, .nav >li > a:focus {
+      background-color:#999;
+      }
+      .nav >li.active,
+      .nav >li.current-page-ancestor,
+      .nav >li.current_page_ancestor,
+      .nav >li.current-menu-item,
+      .nav >li.current_page_item {
+      background-color:#999;
+      }
+         #logo a {
+      background:url("https://wrdsb-ui-assets.s3.amazonaws.com/public/2/2.0.0/images/WRDSB+Secondary+Logo+cropped.png") no-repeat;
+      background-size:75px 75px;
+      /*margin-left:120px;*/
+      text-decoration:none;
+      color:#fff;
+      margin-top: 15px;
+      font-family: 'Open Sans Condensed', sans-serif !important;
+      font-size: 40px;
+      }
