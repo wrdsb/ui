@@ -24,13 +24,3 @@
       .nav >li.current_page_item {
       background-color:#4a071d;
       }
-         #logo a {
-      background:url("https://wrdsb-ui-assets.s3.amazonaws.com/public/2/2.0.0/images/WRDSB+Secondary+Logo+cropped.png") no-repeat;
-      background-size:75px 75px;
-      /*margin-left:120px;*/
-      text-decoration:none;
-      color:#fff;
-      margin-top: 15px;
-      font-family: 'Open Sans Condensed', sans-serif !important;
-      font-size: 40px;
-      }

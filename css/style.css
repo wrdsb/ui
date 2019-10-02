@@ -23,15 +23,15 @@
 /*** LOGO ***/
 
 #logo {
-	margin-top:14px;
+	margin-top:25px;
 }
 #logo a {
 	display:inline-block;
 	width:100%;
 	height:110px;
-	background:url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.2/images/WRDSB_Logo.svg") no-repeat;
+	background:url("https://wrdsb-ui-assets.s3.amazonaws.com/public/2/2.0.0/images/wrdsb_primary+logo_rev.svg") no-repeat;
 	background-size:110px 110px;
-	padding-left:120px;
+	padding-left:110px;
 	text-decoration:none;
 	color:#000;
 }
@@ -49,64 +49,48 @@
 	display:none;
 }
 
-#logo a #sitename {
-	margin:0;
-	top:48px;
-	position:absolute;
-}
-#logo a #sitedescription {
-	margin:0;
-	top:86px;
-	position:absolute;
-	letter-spacing:2px;
-}
-
   #sitename {
     font-size: 40px !important;
     font-family: 'Open Sans Condensed', serif !important;
-    font-weight: 300;
+    font-weight: 700;
     color: #fff;
   }
 
   #sitedescription {
-    font-size: 22px;
+    font-size: 30px;
     letter-spacing: 0;
     font-family: 'Open Sans Condensed', serif !important;
     font-weight: 300;
     color: #fff;
   }
 
-#logo a #sitename, #logo a #sitedescription {
-    color:#005daa;
-  }
-
   #logo a #sitename {
     margin:0;
-    top:40px;
+    top:30px;
     position:absolute;
   }
 
   #logo a #sitedescription {
     margin:0;
-    top:75px;
+    top:78px;
     position:absolute;
   }
 
   @media (min-width: 992px) and (max-width: 1199px) {
     #logo a #sitename {
-      font-size:26px;
-      top:44px;
+      font-size:26px !important;
+      top:45px;
     }
     #logo a #sitedescription {
       font-size:20px;
-      top:78px;
+      top: 75px;
     }
   }
 
   @media (min-width: 768px) and (max-width: 991px) {
     #logo a #sitename {
-      font-size:22px;
-      top:28px;
+      font-size:20px !important;
+      top:23px;
     }
     #logo a #sitedescription {
       display:none;
@@ -420,7 +404,7 @@ a {
 .searchbox {
 	float:left;
 	width:184px;
-	margin-top:8px;
+	padding-top:9px;
 }
 .searchbox input {
 	width:170px;
@@ -746,7 +730,7 @@ content: "Example";
 			text-align:left;
 		}
 		#navbar-header {
-			background:url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.2/images/WRDSB_Logo.svg") no-repeat;
+			background:url("https://wrdsb-ui-assets.s3.amazonaws.com/intranet/2/2.2.0/images/wrdsb_primary+logo_rev.svg") no-repeat;
 			background-size:50px 50px;
 			background-repeat: no-repeat;
 			background-position:4px 2px;
@@ -819,13 +803,6 @@ content: "Example";
 		}
 	}
 	@media (min-width: 768px) and (max-width: 991px) {
-		#logo a #sitename {
-			font-size:22px;
-			top:28px;
-		}
-		#logo a #sitedescription {
-			display:none;
-		}
 		.header .social-icons {
 			width:23px;
 			padding-left:0px;
@@ -834,7 +811,7 @@ content: "Example";
 			font-size:36px;
 		}
 		#logo a {
-			background:url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.2/images/WRDSB_Logo.svg") no-repeat;
+			background:url("https://wrdsb-ui-assets.s3.amazonaws.com/public/2/2.0.0/images/wrdsb_primary+logo_rev.svg") no-repeat;
 			background-size:80px 80px;
 			background-repeat: no-repeat;
 			background-position:4px 2px;
@@ -860,14 +837,6 @@ content: "Example";
 
 	}
 	@media (min-width: 992px) and (max-width: 1199px) {
-		#logo a #sitename {
-			font-size:26px;
-			top:44px;
-		}
-		#logo a #sitedescription {
-			font-size:20px;
-			top:78px;
-		}
 		.header .social-icons {
 			width:23px;
 			padding-left:0px;
@@ -1647,7 +1616,7 @@ color: #709820;
       color:#000;
       }
       /*a.logo {
-      background:url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.2/images/WRDSB_Logo.svg") no-repeat;
+      background:url("https://wrdsb-ui-assets.s3.amazonaws.com/public/2/2.0.0/images/wrdsb_primary+logo_rev.svg") no-repeat;
       background-size:50px 50px;
       padding-left:60px;
       }*/
@@ -1657,44 +1626,12 @@ color: #709820;
       #logo a span {
       display:none;
       }
-      #logo a #sitename {
-      margin:0;
-      top:17px;
-      position:absolute;
-      font-size: 40px;
-      }
-      #logo a #sitedescription {
-      margin:0;
-      top:68px;
-      position:absolute;
-      letter-spacing:0;
-      font-size: 30px;
-      }
 	#logo a #sitename, #logo a #sitedescription {
 	  	color: #fff;
 	}
-	  @media (min-width: 992px) and (max-width: 1199px) {
-      #logo a #sitename {
-      font-size:40px;
-      top:17px;
-      }
-      #logo a #sitedescription {
-      font-size:30px;
-      top:68px;
-      }
-      }
-      @media (min-width: 768px) and (max-width: 991px) {
-      #logo a #sitename {
-      font-size:40px;
-      top:17px;
-      }
-      #logo a #sitedescription {
-      display:none;
-      }
-      }
       #staff-shortcut-list a {
       color: #fff;
-      background-image: url(https://wrdsb-ui-assets.s3.amazonaws.com/1/1.1.0/images/Pointer.svg);
+      background-image: url("https://wrdsb-ui-assets.s3.amazonaws.com/1/1.1.0/images/Pointer.svg");
       background-repeat: no-repeat;
       padding-left: 20px;
       margin-left: -1px;
