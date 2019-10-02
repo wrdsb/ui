@@ -9,92 +9,22 @@
 	primary-faint: #f8f8f9;
 */ 
 
-/* login bar */
-#loginbar { /* contains log in/out, Staff Website and sometimes School Handbook links */
-	background-color: #e3b2b3 !important; 
-	border-top: 3px solid #a30001;
-	width:100%;
-}
-
-/*navigation*/
-.my-navbar {
-	background-color:#0A1241; /*primary*/
-	border-top-color:#A30001; /*secondary*/
-}
-.nav >li > a:hover, .nav >li > a:focus {
-	background-color:#6C718D; /*opacity*/
-}
-.nav >li.active, 
-.nav >li.current-page-ancestor, 
-.nav >li.current_page_ancestor,
-.nav >li.current-menu-item, 
-.nav >li.current_page_item {
-	background-color:#6C718D; /*opacity*/
-}
-/*sub navigation*/
-.sub-menu-heading, .sub-menu-heading a {
-	background-color:#0A1241; /*primary*/
-}
-
-.sub-menu-heading a:hover {
-	color: #B6B8C6; /* SZC 2014-11-10 */
-}
-
-.sub-menu-items {
-	background-color:#CED0D9; /*light*/
-}
-
-/* children in sub-nav */
-.nav_current_page_children_container {
-	background-color: #f8f8f9; /*primary-faint*/
-}
-
-/*headings*/
-h1, h2, h3, h4, h5, h6 {
-	color:#0A1241; /*primary*/
-}
-
-/*links*/
-/* a {
-	color: #152584;
-}*/
-.footer a {
-	color: #B6B8C6; 
-}
-/*a:hover, a:focus {
-	color: #223edd; 
-}*/
-.footer a:hover, .footer a:focus {
-	color: #d4d5dd; 
-}
-/*a:visited {
-	color: #182c9a;
-}*/
-
-
-/*footer*/
-.footer {
-	background-color:#0A1241; /*primary*/
-	border-top-color:#A30001; /*secondary*/
-	color:#fff;
-}
-
-th {
-	background-color: #e6e7ec; /*primary-extra-light*/
-}
-
-thead > tr > th {
-        border-bottom: 2px solid #A30001; /*secondary*/
-        }
-
-tr:hover, tr:nth-child(odd):hover, tr:nth-child(even):hover {
-	background-color: #e3b2b3 !important; /*secondary-light*/
-}
-
-th {
-	color: #0A1241; /*primary*/
-}
-
-#logo a #sitename, #logo a #sitedescription {
-	color:#A30001; /*secondary*/
-}
+      #masthead {
+      background-color: #0A1241;
+      }
+      .navbar {
+      background-color: #A30001;
+      }
+      .my-sub-navbar {
+      	background-color: white;
+      }
+      .nav >li > a:hover, .nav >li > a:focus {
+      background-color:#cf2b2c;
+      }
+      .nav >li.active,
+      .nav >li.current-page-ancestor,
+      .nav >li.current_page_ancestor,
+      .nav >li.current-menu-item,
+      .nav >li.current_page_item {
+      background-color:#cf2b2c;
+      }

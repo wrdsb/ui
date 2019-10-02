@@ -1,3 +1,10 @@
+## 2.0.0
++ new masthead
++ new colours for high schools
++ responsive menu on mobile
++ new fonts and colours for headings
++ changed source of bootstrap styles
+
 ## 1.0.5
 + add phone number for JME
 
