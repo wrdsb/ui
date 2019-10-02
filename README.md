@@ -1,5 +1,5 @@
 # UI
-Assets, boilerplate code, etc. for the Blue Tang design and UI
+Assets, boilerplate code, etc. for the Destin design and UI (2.x) (1.x is Blue Tang)
 
 ## How to Use Me
 
