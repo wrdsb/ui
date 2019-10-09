@@ -1,3 +1,7 @@
+## 2.1.0
++ change print.css to fix display and print warning handling
++ update AWS references for assets in css code
+
 ## 2.0.0
 + new masthead
 + new colours for high schools
