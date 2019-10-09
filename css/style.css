@@ -29,7 +29,7 @@
 	display:inline-block;
 	width:100%;
 	height:110px;
-	background:url("https://wrdsb-ui-assets.s3.amazonaws.com/public/2/2.0.0/images/wrdsb_primary+logo_rev.svg") no-repeat;
+	background:url("https://wrdsb-ui-assets.s3.amazonaws.com/public/2/2.1.0/images/wrdsb_primary+logo_rev.svg") no-repeat;
 	background-size:110px 110px;
 	padding-left:110px;
 	text-decoration:none;
@@ -631,7 +631,7 @@ background-color: #eee;
 width:50px;
 height:35px;
 border:none;
-background-image: url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.2/images/btnSearch.png");
+background-image: url("https://s3.amazonaws.com/wrdsb-ui-assets/public/2/2.1.0/images/btnSearch.png");
 cursor:pointer;
 vertical-align: middle;
 }
@@ -730,7 +730,7 @@ content: "Example";
 			text-align:left;
 		}
 		#navbar-header {
-			background:url("https://wrdsb-ui-assets.s3.amazonaws.com/intranet/2/2.2.0/images/wrdsb_primary+logo_rev.svg") no-repeat;
+			background:url("https://wrdsb-ui-assets.s3.amazonaws.com/public/2/2.1.0/images/wrdsb_primary+logo_rev.svg") no-repeat;
 			background-size:50px 50px;
 			background-repeat: no-repeat;
 			background-position:4px 2px;
@@ -793,7 +793,7 @@ content: "Example";
 			width:26px;
 		}
 		.navbar-toggle .icon-search {
-			background-image: url("https://wrdsb-ui-assets.s3.amazonaws.com/public/2/2.0.0/images/search.gif");
+			background-image: url("https://wrdsb-ui-assets.s3.amazonaws.com/public/2/2.1.0/images/search.gif");
 			height: 25px;
 			width: 25px;
 			background-repeat: no-repeat;
@@ -811,7 +811,7 @@ content: "Example";
 			font-size:36px;
 		}
 		#logo a {
-			background:url("https://wrdsb-ui-assets.s3.amazonaws.com/public/2/2.0.0/images/wrdsb_primary+logo_rev.svg") no-repeat;
+			background:url("https://wrdsb-ui-assets.s3.amazonaws.com/public/2/2.1.0/images/wrdsb_primary+logo_rev.svg") no-repeat;
 			background-size:80px 80px;
 			background-repeat: no-repeat;
 			background-position:4px 2px;
@@ -970,7 +970,7 @@ content: "Example";
 		padding-bottom: 2em;
 		margin-top: 3em;
 		text-transform: uppercase;
-		background-image: url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.2/images/totop.gif");
+		background-image: url("https://s3.amazonaws.com/wrdsb-ui-assets/public/2/2.1.0/images/totop.gif");
 		background-repeat: no-repeat;
 		background-position: center;
 		opacity: 0.6;
@@ -1162,7 +1162,7 @@ p.fineprint, .fineprint {
 /** custom lists **/
 
 ul.checklist li {
-	list-style: square url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.2/images/checkbox_11x11.gif");
+	list-style: square url("https://s3.amazonaws.com/wrdsb-ui-assets/public/2/2.1.0/images/checkbox_11x11.gif");
 	line-height: 2em;
 	list-style-position: outside;
 	vertical-align: top;
@@ -1206,7 +1206,7 @@ ul.checklist li {
 /*** __file type icons ***/
 
 a[href $='pdf'] {
-	background-image: url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.2/images/icons_filetype/icon_pdf_small.gif");
+	background-image: url("https://s3.amazonaws.com/wrdsb-ui-assets/public/2/2.1.0/images/icons_filetype/icon_pdf_small.gif");
 	background-repeat: no-repeat;
 	padding-left: 18px;
 }
@@ -1223,25 +1223,25 @@ a.noicon[href $='pdf'] {
 }
 
 a[href $='xls'] {
-	background-image: url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.2/images/icons_filetype/icon_xls_small.gif");
+	background-image: url("https://s3.amazonaws.com/wrdsb-ui-assets/public/2/2.1.0/images/icons_filetype/icon_xls_small.gif");
 	background-repeat: no-repeat;
 	padding-left: 18px;
 }
 
 a[href $='xlsx'] {
-	background-image: url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.2/images/icons_filetype/icon_xls_small.gif");
+	background-image: url("https://s3.amazonaws.com/wrdsb-ui-assets/public/2/2.1.0/images/icons_filetype/icon_xls_small.gif");
 	background-repeat: no-repeat;
 	padding-left: 18px;
 }
 
 a[href $='doc'] {
-	background-image: url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.2/images/icons_filetype/icon_doc_small.gif");
+	background-image: url("https://s3.amazonaws.com/wrdsb-ui-assets/public/2/2.1.0/images/icons_filetype/icon_doc_small.gif");
 	background-repeat: no-repeat;
 	padding-left: 18px;
 }
 
 a[href $='docx'] {
-	background-image: url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.2/images/icons_filetype/icon_doc_small.gif");
+	background-image: url("https://s3.amazonaws.com/wrdsb-ui-assets/public/2/2.1.0/images/icons_filetype/icon_doc_small.gif");
 	background-repeat: no-repeat;
 	padding-left: 18px;
 }
@@ -1609,7 +1609,7 @@ color: #709820;
       display:inline-block;
       width:100%;
       height:110px;
-      background:url("https://wrdsb-ui-assets.s3.amazonaws.com/1/1.1.0/images/WRDSB+Secondary+Logo.svg") no-repeat;
+      background:url("https://wrdsb-ui-assets.s3.amazonaws.com/public/2/2.1.0/images/WRDSB+Secondary+Logo.svg") no-repeat;
       background-size:400px 110px;
       /*margin-left:120px;*/
       text-decoration:none;
@@ -1631,7 +1631,7 @@ color: #709820;
 	}
       #staff-shortcut-list a {
       color: #fff;
-      background-image: url("https://wrdsb-ui-assets.s3.amazonaws.com/1/1.1.0/images/Pointer.svg");
+      background-image: url("https://wrdsb-ui-assets.s3.amazonaws.com/public/2/2.1.0/images/Pointer.svg");
       background-repeat: no-repeat;
       padding-left: 20px;
       margin-left: -1px;
@@ -1774,4 +1774,9 @@ ul.footer-links {
 }
 ul.footer-links li {
 	margin-bottom:8px;
+}
+
+.printonly {
+	display: none;
+	visibility: hidden;
 }
