@@ -1,3 +1,7 @@
+## 2.2.0
++ image for severe weather
++ remove styles for trustees
+
 ## 2.1.0
 + change print.css to fix display and print warning handling
 + update AWS references for assets in css code
