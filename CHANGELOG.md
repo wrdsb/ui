@@ -1,3 +1,6 @@
+## 1.1.0
++ added card styles
+
 ## 1.0.5
 + add phone number for JME
 
