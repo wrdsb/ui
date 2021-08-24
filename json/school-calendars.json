@@ -232,6 +232,14 @@
     "schoolcode": "est"
   },
   {
+    "full_name": "Elementary Remote Learning School",
+    "abbreviated_name": "Elementary Remote Learning",
+    "public_calendar_id": "c_g26ekusj4765pm05ould9965bc@group.calendar.google.com",
+    "staff_calendar_id": "c_g8qlmfmunlnn19hvvt3and1130@group.calendar.google.com",
+    "website": "https://erl.wrdsb.ca/",
+    "schoolcode": "erl"
+  },
+  {
     "full_name": "Elgin Street Public School",
     "abbreviated_name": "Elgin Street",
     "public_calendar_id": "pd8eqhd4madbsc42oearbb4gi4@group.calendar.google.com",
@@ -570,7 +578,7 @@
   {
     "full_name": "Mary Johnston Public School",
     "abbreviated_name": "Mary Johnston",
-    "public_calendar_id": "h72mniejff1msmh3oadha784r4@group.calendar.google.com",
+    "public_calendar_id": "8ejd3du8ul63nj0h89s5rgjiag@group.calendar.google.com",
     "staff_calendar_id": "0er6j8ifedot73dgitnb5ercac@group.calendar.google.com",
     "website": "https://mjp.wrdsb.ca/",
     "schoolcode": "mjp"
@@ -1006,12 +1014,5 @@
     "staff_calendar_id": "v28jnh5kug3naaln9f0qq7t4g0@group.calendar.google.com",
     "website": "https://gnss.wrdsb.ca/",
     "schoolcode": "gnss"
-  },
-  {
-    "full_name": "Continuing Education",
-    "abbreviated_name": "ConEd",
-    "public_calendar_id": "googleapps.wrdsb.ca_mo6t67nbo1p214vjuimpn4ejp0@group.calendar.google.com",
-    "website": "https://schools.wrdsb.ca/continuing-education",
-    "schoolcode": "continuing-education"
   }
 ]
