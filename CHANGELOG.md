@@ -1,3 +1,6 @@
+## 2.2.1
++ updated schools.json and school_calendars.json
+
 ## 2.2.0
 + image for severe weather
 + remove styles for trustees
