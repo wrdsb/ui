@@ -1,15 +1,17 @@
 /* Bootstrap Layout and Core Styles */
 
 /* @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"); */
-@import url("https://s3.amazonaws.com/wrdsb-theme/css/bootstrap.css");
-@import url("https://s3.amazonaws.com/wrdsb-theme/css/bootstrap-theme.css");
+@import url("https://s3.amazonaws.com/wrdsb-ui-assets/public/2/2.2.0/css/bootstrap.css");
+@import url("https://s3.amazonaws.com/wrdsb-ui-assets/public/2/2.2.0/css/bootstrap-theme.css");
 
 /* Mobile Styles */
 
-@import url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.1/css/addtohomescreen.css") screen;
+@import url("https://s3.amazonaws.com/wrdsb-ui-assets/public/2/2.2.0/css/addtohomescreen.css");
 
 /* Custom WordPress Theme Styles */ 
 
-@import url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.1/css/style.css");
-@import url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.1/css/bipsa.css");
-@import url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.1/css/print.css") print;
+@import url("https://fonts.googleapis.com/css?family=Nanum+Gothic|Open+Sans+Condensed:300,700&display=swap");
+@import url("https://s3.amazonaws.com/wrdsb-ui-assets/public/2/2.2.0/css/style.css");
+@import url("https://s3.amazonaws.com/wrdsb-ui-assets/public/2/2.2.0/css/print.css");
+
+/* @import url("https://s3.amazonaws.com/wrdsb-ui-assets/1/1.0.3/css/bipsa.css"); */

@@ -1,5 +1,20 @@
-## 1.1.0
-+ added card styles
+## 2.2.1
++ updated schools.json and school_calendars.json
+
+## 2.2.0
++ image for severe weather
++ remove styles for trustees
+
+## 2.1.0
++ change print.css to fix display and print warning handling
++ update AWS references for assets in css code
+
+## 2.0.0
++ new masthead
++ new colours for high schools
++ responsive menu on mobile
++ new fonts and colours for headings
++ changed source of bootstrap styles
 
 ## 1.0.5
 + add phone number for JME
