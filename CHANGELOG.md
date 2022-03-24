@@ -1,3 +1,6 @@
+## 2.2.2
++ updated schools.json and school_calendars.json [OAK]
+
 ## 2.2.1
 + updated schools.json and school_calendars.json
 
