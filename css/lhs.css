@@ -1,0 +1,29 @@
+/*	Stylesheet: JAM
+	primary: #4480B2;
+	primary opacity: #8FB3D1;
+	secondary; #30669B;
+	light: #DAE6F0;
+	secondary-light: #d6e0eb;
+	primary-light: #dae6f0;
+	primary-extra-light: #ecf2f7;
+	primary-faint: #f6f8fb;*/ 
+
+      #masthead {
+      background-color: #4480B2;
+      }
+      .navbar {
+      background-color: #30669B;
+      }
+      .my-sub-navbar {
+      	background-color: white;
+      }
+      .nav >li > a:hover, .nav >li > a:focus {
+      background-color:#3f7bb5;
+      }
+      .nav >li.active,
+      .nav >li.current-page-ancestor,
+      .nav >li.current_page_ancestor,
+      .nav >li.current-menu-item,
+      .nav >li.current_page_item {
+      background-color:#3f7bb5;
+      }
